@@ -488,65 +488,16 @@ a.active.navMember {
 
 /*/About*/
 
-/*Staff*/
+/*Skills*/
 
-.staffBio {
-  background: #1F2022;
-  width: auto;
-  height: 20vh;
-  padding: 10px;
+
+.skillsLogos {
+  max-width: 150px;
+  max-height: 150px;
+  margin-right: 10vw;
+  margin-left: 3vw;
 }
-
-.staffBio>p {
-  color: white;
-  font-size: 2vmin;
-}
-
-.staffBio>a>p {
-  color: white;
-  font-size: 2vmin;
-}
-
-.staffBio>a>p:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 1556px) {
-  .staffBio {
-    height: auto;
-    margin-top: auto;
-  }
-}
-
-@media (max-width: 750px) {
-  .staffBio>p {
-    font-size: 3vmin;
-  }
-}
-
-@media (max-width: 524px) {
-  .staffBio>p {
-    font-size: 2.5vmin;
-
-  }
-}
-
-
-.staffName {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-size: 3vmin;
-  margin-top: auto;
-  padding-top: 1.5vmin;
-  color: #04D7F8 !important;
-}
-
-@media (max-width: 677px) {
-  .staffName {
-    font-size: 5vmin;
-  }
-}
-
-/*/Staff*/
+/*/Skills*/
 
 /*Our work*/
 .ulColor {
@@ -568,8 +519,60 @@ a.active.navMember {
 
 /*Art Gallery*/
 .gallerySize {
-  max-height: 300px;
-  max-width: 300px;
+  width: 350px;
+  height: 200px;
+}
+
+.galleryBg {
+  background: #1F2022;
+  width: auto;
+  padding: 2vh;
+}
+
+.galleryBg>p {
+  color: white;
+  font-size: 2vmin;
+}
+
+.galleryBg>a>p {
+  color: white;
+  font-size: 2vmin;
+}
+
+.galleryBg>a>p:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1556px) {
+  .galleryBg {
+    height: auto;
+    margin-top: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .galleryBg>p {
+    font-size: 3vmin;
+  }
+}
+
+@media (max-width: 524px) {
+  .galleryBg>p {
+    font-size: 2.5vmin;
+
+  }
+}
+
+.galleryName {
+   font-size: 3vmin;
+  margin-top: auto;
+  padding-top: 1.5vmin;
+ }
+
+@media (max-width: 677px) {
+  .galleryName {
+    font-size: 5vmin;
+  }
 }
 @media (max-width: 600px) {
 .galleryMarginBottom {
@@ -588,7 +591,7 @@ z-index: 1;
 overflow: hidden;
 position: fixed;
 font-size: 1.25rem;
-width: 20vw;
+width: 15vw;
 }
 @media (max-width: 768px) {
   .sidebar {
@@ -613,11 +616,13 @@ width: 20vw;
   background: #AAACAF;
 }
 .sidebarContent {
-  margin-left: 25%;
+  margin-left: 25vw !important;
+  margin-right: 25vw;
 }
 @media (max-width: 768px) {
   .sidebarContent {
     margin-left:10%;
+    margin-right:10%;
   }
 }
 
