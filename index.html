@@ -1,33 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>John Buttram</title>
-    <!-- Bootstrap core CSS -->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/hero.css" rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@900&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>John Buttram</title>
+  <!--Style sheets-->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--/Stylesheets-->
 </head>
 
-<body>
-    <!-- Navigation -->
-    <!-- Page Content -->
-    <section class="hero" role="img" aria-label="">
+<body data-spy="scroll" data-target=".sidebar">
+ 
+ 
+ 
+ <!--Navbar-->
+ <nav data-aos="fade-right" data-aos-once="true" class="navbar d-flex navHeight flex-row navbar-expand-xl fixed-top">
+  <!--Brand-->
+  <div class="wideLogo">
+    <a class="navbar-brand" href="">
+      <img src="assets/img/logos/logoTop.jpg" id="navlogo" class="img-fluid">
+    </a>
+  </div>
+  <!--/Brand-->
 
-        <a href="assets/html/eng/homeEng.html"><input data-aos="fade-down" aos-duration="3000" data-aos-easing="ease-in"
-                aos-delay="3000" type=button value="Let's go!" id=button1></a>
+    <!-- Button for toggling the visibility of the menu -->
+    <button type="button" data-target="#collapseNavbar" data-toggle="collapse"
+      class="navbar-toggler justify-content-end" aria-controls="collapseNavbar" aria-expanded="false"
+      aria-label="toggle navigation">
+      <span class="navbar-toggler-icon">
+        <svg viewBox="0 0 100 80" width="30" height="30" fill="#04D7F8">
+          <rect width="100" height="15"></rect>
+          <rect y="30" width="100" height="15"></rect>
+          <rect y="60" width="100" height="15"></rect>
+        </svg>
+      </span>
+    </button>
+    <!--/Button-->
 
+    <!-- Navigation menu container -->
+    <div class="navbar-collapse collapse align-items-center" id="collapseNavbar">
+      <!-- Nav tabs -->
+      <ul class="nav navFontSize navbar-nav nav-pills nav-js mx-auto mobileDrop justify-content-between">
+        <li class="nav-item">
+          <a class="nav-link active navbar-text navHome" href="index.html">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-text" href="assets/html/skills.html">
+            Skills
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-text" href="assets/html/artGallery.html">
+            Art Gallery
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navbar-text navMember" href="assets/html/contact.html">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!--/Nav Items-->
+  </nav>
+  <!--/Navbar-->
+    <!--Any Edits Go here-->
+    <section>
+        <div class="row">
+            <div class="col-md-12">
+                <div data-aos="fade-up" data-aos-once="true" data-aos-easing="ease" id="aboutImageGradient">
+                    <div data-aos="fade-up-left" data-aos-once="true" class="iconFloat">
+                        <a rel="noreferrer" href="" target="_blank">
+                            <img
+                                src="assets/img/socials/f_logo_RGB-Blue_58.png" 
+                                class="pulse icons"></a>
+                        <a rel="noreferrer" href="" target="_blank">  <img
+                            src="assets/img/socials/2021 Twitter logo - blue.png"
+                            class="pulse icons"></a></a>
+                        <a rel="noreferrer" href=""
+                            target="_blank">  <img
+                            src="assets/img/socials/youtube_social_square_red.png" 
+                            class="pulse icons"></a></a>
+                        <a rel="noreferrer" href="" target="_blank">  <img
+                            src="assets/img/socials/Instagram_Glyph_Gradient_RGB.png" 
+                            class="pulse icons"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="padding: 0;">
+            <div class="row no-gutters">
+                <div data-aos="fade-right" data-aos-once="true" aos-duration="3000" data-aos-easing="ease" aos-delay="5000" class="col-md-7">
+                    <img loading="lazy" src="assets/img/photos/homeLeft.jpg" class="aboutImg"></div>
+                <div data-aos="fade-left" data-aos-once="true" data-aos-easing="ease" aos-duration="500"
+                    class="col-md-5 text-center aboutContact">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id possimus eligendi beatae perferendis molestiae iste unde sequi repellendus placeat quas. Culpa eligendi delectus laudantium autem odit suscipit, aut dignissimos rerum.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
     </section>
-    <!-- Bootstrap core JavaScript -->
-    <script src="node_modules/aos/dist/aos.js"></script>
+    <!--Don't touch below this line-->
+       <!--Footer-->
+       <footer class="footer" style="padding-top: 0;">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <p class="about">
+              <a href="homeEng.html">
+                <img src="assets/img/logos/logo.png" id="footlogo"></a>
+          </div>
+          <div class="col-md-4 col-sm-4 text-center" style="padding-top:6vh;">
+            <h4>Contact:</h4>
+                    <p><a href="mailto: johnbuttramdesigns@gmail.com">Email me!</a></p>
+          </div>
+          <div class="col-md-4 col-sm-4" style="padding-top:5vh;">
+            <div>
+              <a class="icons" href="https://goo.gl/maps/JDRbUJQ19BzEjxnz8" target="_blank"><i
+                  class="fa fa-map-marker"></i></a>
+              <p>Birmingham, AL</p>
+            </div>
+            <div>
+              <a class="icons" href="tel:2058008806" target="_blank"><i class="fa fa-phone"></i></a>
+              <p>(205) 800-8806</p>
+            </div>
+          </div>
+          </div>
+       </footer>
+       <!--/Footer-->
+    <script src="../../../node_modules/aos/dist/aos.js"></script>
     <script>
-AOS.init({
+        AOS.init({
   disable: function() {
     var maxWidth = 700;
     return window.innerWidth < maxWidth;
@@ -36,7 +149,7 @@ AOS.init({
     </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
