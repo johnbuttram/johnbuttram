@@ -9,7 +9,7 @@ h3,
 h4,
 p,
 em {
-  color: #AAACAF;
+  color: #AAACAF !important;
 }
 
 html {
@@ -38,10 +38,7 @@ p {
   margin-bottom: 0 !important;
 }
 
-.latoBold {
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
+.fontColor {
   color: #AAACAF;
 }
 
@@ -58,8 +55,7 @@ h1 {
 }
 h4 {
   font-size: .90rem;
-  color: black !important;
-}
+ }
 .modalFooter {
   font-size: .90rem;
   color: black !important;
@@ -492,9 +488,9 @@ a.active.navMember {
 
 
 .skillsLogos {
-  max-width: 150px;
-  max-height: 150px;
-  margin-right: 10vw;
+  max-width: 75px;
+  max-height: 75px;
+  margin-right: 3vw;
   margin-left: 3vw;
 }
 /*/Skills*/
