@@ -542,7 +542,7 @@ a.active.navMember {
 @media (max-width: 1556px) {
   .galleryBg {
     height: auto;
-    margin-top: auto;
+    margin-top: 0;
   }
 }
 
@@ -561,7 +561,7 @@ a.active.navMember {
 
 .galleryName {
    font-size: 3vmin;
-  margin-top: auto;
+  margin-top: 0;
   padding-top: 1.5vmin;
  }
 
