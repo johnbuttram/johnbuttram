@@ -553,7 +553,12 @@ a.active.navMember {
 }
 @media (max-width: 766px) {
   .skills>p {
-    font-size: auto;
+    font-size: 2.5vmin;
+  }
+}
+@media (max-width: 575px) {
+  .skills>p {
+    font-size: 3.5vmin;
   }
 }
 
