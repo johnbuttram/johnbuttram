@@ -514,15 +514,33 @@ a.active.navMember {
 /*/Our work*/
 
 /*Art Gallery*/
+.skills>p {
+  font-size: 3vmin;
+}
+
+@media (max-width: 1280px) {
+  .skills>p {
+    font-size: 2vmin;
+  }
+}
+@media (max-width: 766px) {
+  .skills>p {
+    font-size: auto;
+  }
+}
+
 .gallerySize {
   width: 350px;
   height: 200px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .galleryBg {
   background: #1F2022;
   width: auto;
   padding: 2vh;
+  margin-bottom: 2vh;
 }
 
 .galleryBg>p {
@@ -544,6 +562,11 @@ a.active.navMember {
     height: auto;
     margin-top: 0;
   }
+}
+@media (max-width: 766px) {
+ .galleryBg{
+ width: auto;
+ }
 }
 
 @media (max-width: 750px) {
@@ -568,13 +591,11 @@ a.active.navMember {
 @media (max-width: 677px) {
   .galleryName {
     font-size: 5vmin;
+    padding-top: 0;
+    margin-top: 0 !important
   }
 }
-@media (max-width: 600px) {
-.galleryMarginBottom {
-margin-bottom: 5vh;
-}
-}
+
 /*/Art Gallery/*
 /*Media & Press*/
 
