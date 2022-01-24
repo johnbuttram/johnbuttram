@@ -2,6 +2,7 @@
 body {
   position: relative;
   z-index: 1;
+  max-height: 75vh !important;
   }
 h1,
 h2,
@@ -274,70 +275,6 @@ a.active.navMember {
   transition: 250ms;
 }
 
-/*Footer*/
-.footer {
-  background-color: #1F2022;
-  width: auto;
-  height: 19vh;
-  text-align: center;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: normal;
-  position: relative;
-  z-index: 2;
-  
-}
-.footer p {
-  color: #AAACAF;
-}
-.footer a{
-  color: #AAACAF;
-}
-.footer label {
-  color: #AAACAF;
-}
-.footer h4 {
-  color: #AAACAF !important;
-}
-.footer .footer-left,
-.footer .footer-center,
-.footer .footer-right {
-  display: inline-block;
-}
-
-
-/* footer left*/
-#footlogo {
-  width: 150px;
-  height: 150px;
-  filter: invert(100%);
-  -webkit-filter: invert(100%);
-}
-
-@media (max-width: 1199px) {
-
-  .footer {
-    font-size: 14px;
-    width: 100vw;
-    height: auto;
-  }
-
-  .footer .footer-left,
-  .footer .footer-center,
-  .footer .footer-right {
-    display: grid;
-    align-items: center;
-    width: 33vw;
-  }
-
-}
-
-
-.stayInTouch  h4 {
-  color: white !important;
-}
-/*/Footer*/
-
 /*/All pages*/
 
 
@@ -360,6 +297,8 @@ a.active.navMember {
 
 .icons {
   width: 3vw;
+  margin-left: 1vh;
+  margin-right: 1vh;
 }
 
 .icons:hover {
@@ -370,13 +309,15 @@ a.active.navMember {
 .iconFloat {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   vertical-align: middle;
   float: right !important;
   z-index: 2;
   margin-top: 2vh;
-  margin-right: 1vw;
+  margin-right: 3vw;
+  margin-left: 3vw;
   line-height: 8vh;
+
 }
 
 @media (max-width: 767px) {
@@ -399,7 +340,7 @@ a.active.navMember {
     linear-gradient(to right, rgba(68, 85, 85, 0.73) 55%, rgba(87, 37, 24, 0.52) 100%),
     url('../img/photos/about.jpg');
   width: 100%;
-  height: 100vh;
+  height: 88vh;
   background-size: cover;
   margin-top: 10vh;
   margin-bottom: 0;
@@ -523,25 +464,7 @@ a.active.navMember {
 }
 /*/Skills*/
 
-/*Our work*/
-.ulColor {
-  color: #AAACAF;
-
-}
-.verticalAlign {
-  display: flex;
-  justify-content: center;
-  vertical-align: middle;
-}
-
-.our-work-img {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-/*/Our work*/
-
-/*Art Gallery*/
+/*Image Gallery*/
 .skills>p {
   font-size: 3vmin;
 }
@@ -565,15 +488,15 @@ a.active.navMember {
 .gallerySize {
   width: 350px;
   height: 200px;
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
   padding-bottom: 0;
 }
 
 .galleryBg {
   background: #1F2022;
   width: auto;
-  padding: 2vh;
-  margin-bottom: 2vh;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .galleryBg>p {
@@ -629,109 +552,3 @@ a.active.navMember {
   }
 }
 
-/*/Art Gallery/*
-/*Media & Press*/
-
-.sidebar {
-left: 0;
-background: #1F2022;
-padding-top: 15vh;
-padding-bottom: 1000vh;
-z-index: 1;
-overflow: hidden;
-position: fixed;
-font-size: 1.25rem;
-width: 15vw;
-}
-@media (max-width: 768px) {
-  .sidebar {
-    margin-bottom: 0;
-    padding-bottom: 1vh;
-    padding-top: 1vh;
-    position: relative;
-    width: auto;
-  }
-}
-
-.sidebar>a{
-  color: white;
-}
-.sidebar>a:hover {
-  color: #04D7F8;
-  }
-.modalBg {
-  background-color: #AAACAF;
-}
-.modal-body {
-  background: #AAACAF;
-}
-.sidebarContent {
-  margin-left: 25vw !important;
-  margin-right: 25vw;
-}
-@media (max-width: 768px) {
-  .sidebarContent {
-    margin-left:10%;
-    margin-right:10%;
-  }
-}
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.link-with-preview>p {
-  color: black !important;
-}
-
-/*/Media & Press*/
-
-/*Resources*/
-.publicationCenter {
-  margin-top: 5vh;
-
-}
-
-.publicationCovers {
-  height: 40vh;
-  width: 15vw;
-}
-
-@media (max-width: 992px) {
-  .publicationCovers {
-    width: auto;
-    height: auto;
-  }
-}
-
-/*/Publications*/
-/*Contact us*/
-
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
-
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
