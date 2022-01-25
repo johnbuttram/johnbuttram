@@ -6,7 +6,7 @@ body {
   max-width: 100% !important;
   background-color: #3A3E47;
   color: #AAACAF;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   }
 h1,
 h2,
